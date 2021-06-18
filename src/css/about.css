@@ -1,0 +1,44 @@
+
+.section-heading {
+    text-align: center;
+    padding: 40px 45px;
+}
+
+.section-heading h2 { 
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-heading .line-dec {
+    width: 80px;
+    height: 3px;
+    background-color: #a43f49;
+    margin: 10px auto;
+}
+
+.section-heading span {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+/* =======content===== */
+
+.content-main{
+    padding: 30px  0;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.content{
+    width: 55%;
+}
+.content p{
+    text-align: justify;
+}

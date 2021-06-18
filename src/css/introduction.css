@@ -1,0 +1,10 @@
+.corosal{
+    height: 100vh;
+    box-sizing: content-box;
+    display: flex;
+    padding-top: 30px;
+}
+.corosal img{
+    height: 90vh;
+    align-content: center;
+}

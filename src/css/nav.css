@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 250px;
+    height: 100vh;
+    margin-left: 50px;
+    background-color: #a43f49;;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    position: fixed;
+}
+/* ======== profile image===== */
+nav .nav-img{
+    margin: 65px auto 40px;     
+}
+
+nav .nav-img img,
+nav .nav-img{
+    width: 175px;
+    height: 180px;
+    border-radius: 50%;     
+}
+nav h1{
+    font-size: 22pt;
+    color: #fff;
+
+}
+nav h2 {
+    font-size: 13pt;
+    color: rgb(175, 168, 168);
+}
+
+nav section{
+    margin-top: 20px;
+}
+nav section a{
+    height: 30px;
+    display: block;
+    text-transform: capitalize;
+    margin: 5px auto;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+nav section a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #a43f49;
+}
+/* ====== social icons ====== */
+nav .socicons{
+    margin: 10px auto;
+}
+
+nav .socicons a{
+    color: rgb(197, 192, 192);
+    margin: 5px;
+    font-size: 18pt;
+}
