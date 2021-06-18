@@ -13,7 +13,7 @@ const introduction = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={corosal1}
+                            src={corosal3}
                             alt="First slide"
                         />
                         <Carousel.Caption>
@@ -36,7 +36,7 @@ const introduction = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={corosal3}
+                            src={corosal1}
                             alt="Third slide"
                         />
 

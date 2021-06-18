@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = (props) => {
     return (
-        <input className="btn btn-danger " type="button" value={props.value}></input>
+        <button className="btn btn-danger">{props.value}</button>
     )
 }
 
