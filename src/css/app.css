@@ -19,6 +19,33 @@ hr{
 }
 .container{
     color: #fff;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: auto;
+}
+/* ========= common css ======= */
+
+
+.section-heading {
+    text-align: center;
+    padding: 40px 45px;
+}
+
+.section-heading h2 { 
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-heading .line-dec {
+    width: 80px;
+    height: 3px;
+    background-color: #a43f49;
+    margin: 10px auto;
+}
+
+.section-heading span {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.5px;
 }

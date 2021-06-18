@@ -18,9 +18,9 @@ const Navcontent = () => {
                 <section>
                     <Link to="/" >Home</Link>
                     <Link to="/about">About</Link>
-                    <Link to="/project">projects</Link>
+                    <Link to="/project">my work</Link>
                     <Link to="/experience">experience</Link>
-                    <Link to="/">something</Link>
+                    <Link to="/contact">contact me</Link>
                 </section>
                 <hr></hr>
 
