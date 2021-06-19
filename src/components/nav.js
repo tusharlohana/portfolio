@@ -18,18 +18,19 @@ const Navcontent = () => {
                 <section>
                     <Link to="/" >Home</Link>
                     <Link to="/about">About</Link>
+                    <Link to="/education">Education</Link>
                     <Link to="/project">my work</Link>
-                    <Link to="/experience">experience</Link>
+                    <Link to="/experience">Qualifications</Link>
                     <Link to="/contact">contact me</Link>
                 </section>
                 <hr></hr>
 
 
                 <div className="socicons" >
-                    <Link to=""><FaGithub/></Link>
-                    <Link to=""><FaLinkedinIn/></Link>
-                    <Link to=""><FaWhatsapp/></Link>
-                    <Link to=""><FaInstagram/></Link>
+                    <a href="https://github.com/tusharlohana"><FaGithub/></a>
+                    <a href="https://www.linkedin.com/in/tushar-lohana-7b409a187/"><FaLinkedinIn/></a>
+                    <a href=""><FaWhatsapp/></a>
+                    <a href=""><FaInstagram/></a>
                 </div>
                 
             </nav>
